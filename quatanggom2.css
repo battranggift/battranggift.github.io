@@ -1,0 +1,49 @@
+#banner {
+	background-color: red;
+	text-align: center;
+	color: whitesmoke;
+	padding: 55px;
+	font-size: 37px;
+	margin: 0px;
+}
+nav {
+	background-color: #303942;
+	overflow: hidden;
+}
+nav a {
+	color: whitesmoke;
+	text-decoration: none;
+	padding: 10px 14px;
+	font-size: 20px;
+	display: block;
+	float: left;
+}
+nav a:hover {
+	color: blue;
+	background-color: whitesmoke ;
+}
+.left_nav {
+	float: left;
+}
+.right_nav {
+	float: right;
+}
+#flex_container {
+	display: flex;
+
+}
+#left_side {
+	flex: 25%;
+	margin: 0px 10px;
+}
+#right_side {
+	flex: 65%;
+	margin: 0px 10px;
+}
+footer {
+	background-color: #66CEF6;
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+	margin: 0px;
+}
